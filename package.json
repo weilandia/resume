@@ -15,6 +15,6 @@
     "jsonresume-theme-stackoverflow": "^1.4.0"
   },
   "scripts": {
-    "build": "yarn hackmyresume build resume.json TO build/resume-dark.html build/resume-dark.pdf -t node_modules/jsonresume-theme-so-moon;yarn hackmyresume build resume.json TO build/resume.html build/resume.pdf -t node_modules/jsonresume-theme-stackoverflow; yarn hackmyresume build resume.json TO resume.html -t node_modules/jsonresume-theme-so-moon"
+    "build": "yarn hackmyresume build resume.json TO build/resume-dark.html build/resume-dark.pdf -t node_modules/jsonresume-theme-so-moon;yarn hackmyresume build resume.json TO build/resume.html build/resume.pdf -t node_modules/jsonresume-theme-stackoverflow; yarn hackmyresume build resume.json TO index.html -t node_modules/jsonresume-theme-so-moon"
   }
 }
