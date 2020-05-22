@@ -1,0 +1,21 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume",
+  "author": "Nick Weiland",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weilandia/resume"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "hackmyresume": "^1.9.0-beta",
+    "jsonresume-theme-so-moon": "^1.0.0",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "build": "yarn rimraf ./build; yarn hackmyresume build resume.json TO build/resume-dark.html build/resume-dark.pdf -t node_modules/jsonresume-theme-so-moon;yarn hackmyresume build resume.json TO build/resume.html build/resume.pdf -t node_modules/jsonresume-theme-stackoverflow;"
+  }
+}
